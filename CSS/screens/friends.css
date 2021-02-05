@@ -1,0 +1,13 @@
+.friends-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  background-color: #fafafa;
+  padding: 10px 0px;
+}
+
+.fa-info-circle {
+  padding-right: 5px;
+  opacity: 0.2;
+}
