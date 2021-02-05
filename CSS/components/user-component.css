@@ -1,0 +1,27 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avator {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.user-component__title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-left: 5px;
+  padding-left: 14px;
+}
+
+.user-component__subtitle {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+}
