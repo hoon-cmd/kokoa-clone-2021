@@ -1,0 +1,37 @@
+.main-screen__settings {
+  display: flex;
+  margin: 5px 0;
+  font-size: 20px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.main-screen__settings i {
+  margin-right: 10px;
+}
+
+.main-screen__settings:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen__settings-version {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.alt-header-s {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-size: 30px;
+  z-index: 3;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin: 20px 0;
+  background-color: white;
+}
+
+.main-screen-settings {
+  padding-top: 70px;
+}

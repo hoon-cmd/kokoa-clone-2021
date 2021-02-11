@@ -22,23 +22,28 @@
   margin: 0px 15px;
 }
 
-.user-component__avator--sm {
-  width: 50px;
-  height: 50px;
-  border-radius: 15px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+@keyframes splash-screens-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
-.user-component__sm {
+#splash-screen {
+  animation: splash-screens-animation 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+  background-color: #fee500;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 5;
+  color: #3c1e1e;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-}
-
-.user-component__column2 {
-  margin-bottom: 10px;
-  margin-right: 10px;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 100px;
 }

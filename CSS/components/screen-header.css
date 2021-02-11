@@ -12,5 +12,7 @@
 }
 
 .screen-header__link {
+  position: relative;
   padding-left: 20px;
+  font-size: 15px;
 }
